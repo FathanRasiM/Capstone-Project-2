@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+.container-initial {
+    background: rgb(255,226,35);
+    background: linear-gradient(357deg, rgba(255,226,35,1) 0%, rgba(232,153,41,1) 50%, rgba(253,29,29,1) 100%);
+    width: 100%;
+    height:98vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Lumanosimo', cursive;
+    font-size: 3em;
+}
+h2 {
+    position: relative;
+    font-family: 'Handjet', cursive;
+    left: 80px;
+    font-size: 2em;
+}
+.word {
+    position: relative;
+    top:150px;
+}
+.city {
+    position: relative;
+    top: 48px;
+    left:80px;
+    width:72%;
+    height: 100%;
+}
+.container-intro {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+p {
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+.container-skill {
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-skill img {
+    width: 200px;
+    height: 200px;
+}
+
+.skill {
+    margin-top:80px;
+    position: relative;
+    left: 680px;
+}
+
+.contact {
+    margin-top: 80px;
+    position: relative;
+    left:600px;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 80px;
+    background: rgb(255,226,35);
+    background: linear-gradient(357deg, rgba(255,226,35,1) 0%, rgba(232,153,41,1) 50%, rgba(253,29,29,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration:none ;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
